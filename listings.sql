@@ -1,12 +1,12 @@
 CREATE TABLE "listings" (
 	"id" serial primary key,
 	"sqft" integer,
-    "cost" integer,
-    "type" varchar(80) not null,
+	"cost" integer,
+	"type" varchar(80) not null,
 	"city" varchar(120) not null
 );
 
-INSERT INTO "listings" ("sqft", "cost", "type", "city")
+INSERT INTO "listings" ("cost", "sqft", "type", "city")
 VALUES (123000, 1500, 'sale', 'Forest Lake'),
 (90000, 1200, 'sale', 'Blaine'),
 (127500, 1600, 'sale', 'Oakdale'),
