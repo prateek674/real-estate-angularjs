@@ -2,7 +2,7 @@
 
 Welcome to weekend challenge 4! This weekend, you will take on the role of an application developer for a real estate company. You will be working with data that we will be providing to you. After importing the data (instructions below), you will find information for properties that are either for "rent" or for "sale".
 
-You job is to get this data onto the DOM. Use client side routing (`angular-route`) to display the rentals on one view and listings for purchase on another view. There should be two navigation links on the page allowing the user to switch between the two views. Optionally, bring AngularJS Material for styling the page.
+You job is to get this data onto the DOM. Use client side routing (`angular-route`) to display the rentals on one view and listings for purchase on another view. There should be two navigation links on the page allowing the user to switch between the two views.
 
 > NOTE: Deploying to Heroku is **not** required for this assignment. We will cover deployment with SQL next week.
 
@@ -27,6 +27,5 @@ You will need import the *listings.sql* file into your database. Either import t
 ## Stretch Goals
 
 - [ ] Add an option to include an image path (absolute url) for each listing
-- [ ] Ability to update an existing record using a pop up (modal). You will need to research libraries that support modals (AngularJS Material has this capabitlity)
 - [ ] Display the least expensive property featured prominently at the top of the page
 - [ ] Ability to search or filter by various parameters (try doing this using a server side route with a query parameter)
