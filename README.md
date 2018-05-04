@@ -11,7 +11,7 @@ You job is to get this data onto the DOM. Use client side routing (`angular-rout
 - [ ] Create a Full Stack application from the ground up using Angular, Node, Express, and SQL (SEAN stack)
 - [ ] Work with the data set that we have provide for you
 - [ ] Account for the different data properties ("rent" versus "sale") and ensure that this is noted on the display of the information, by listing "For Rent" or "For Sale" based on which of the two properties that it has.
-- [ ] 3 views, 3 angular routes, each with a controller and template file. See mockups below.
+- [ ] 3 views, 3 angular routes, each with a controller and template file. See view/route details below.
 - [ ] Implement a `Card`, a common user interface element.
  
 
