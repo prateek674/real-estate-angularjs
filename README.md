@@ -31,7 +31,7 @@ Here is a mockup of a card-based layout for real estate listings. This is a guid
 
 - [ ] Create a client-side route, controller, and template file for the home page.
 - [ ] Allow a user to add a property to the database on this view. You will need to give the user an option for either a Rental property or a Sale property.
-- [ ] Allow the user to enter the name of one of the images provided to display with the new listing.
+- [ ] Allow the user to enter the name of one of the images provided to display with the new listing. This only needs to be a text input.
 
 
 ### Rental Property View/Route
@@ -60,14 +60,14 @@ Otherwise, creating one with your own CSS isn't so bad. W3 even has a page on it
 Don't get too hung up on the card and layout. Getting the data on the page is more important. Without the data, the application is useless. Spend your time wisely!
 
 
-## Hard Mode
+## Stretch Goals
 
 - [ ] Ability to delete an existing listing. Place the `delete` button on each listing card.
 - [ ] Move all `$http` requests to an Angular Service
 
 
-## Stretch Goals
+## More Stretch Goals
 
-- [ ] Add other images to your application
 - [ ] Display the least expensive property featured prominently at the top of the view
 - [ ] Ability to search or filter by various parameters (try doing this using a server side route with a query parameter)
+- [ ] Add other images to your application
