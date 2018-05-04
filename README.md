@@ -24,7 +24,7 @@ Create a database called `real-estate`. You will need import the `listings.sql` 
 
 Here is a mockup of a card-based layout for real estate listings. This is a guide for the Rental and Sale views below. Feel free to improvise.
 
-[https://docs.google.com/drawings/d/1t-UDiuWOqXGgwBpL3Oi8B2tyjnSamFMLFavOuWLUb1c/edit?usp=sharing](https://docs.google.com/drawings/d/1t-UDiuWOqXGgwBpL3Oi8B2tyjnSamFMLFavOuWLUb1c/edit?usp=sharing)
+![Real Estate Mockups](RealEstate-mockups.jpg)
 
 
 ### Home/Add Listing View/Route
