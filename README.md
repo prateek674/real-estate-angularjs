@@ -22,7 +22,8 @@ You will need import the *listings.sql* file into your database. Either import t
 
 ## Views and Layout
 
-Mockup of a card-based layout. This is a guide for the Rental and Sale views below. Feel free to improvise.
+Here is a mockup of a card-based layout for real estate listings. This is a guide for the Rental and Sale views below. Feel free to improvise.
+
 [https://docs.google.com/drawings/d/1t-UDiuWOqXGgwBpL3Oi8B2tyjnSamFMLFavOuWLUb1c/edit?usp=sharing](https://docs.google.com/drawings/d/1t-UDiuWOqXGgwBpL3Oi8B2tyjnSamFMLFavOuWLUb1c/edit?usp=sharing)
 
 
@@ -49,7 +50,7 @@ Mockup of a card-based layout. This is a guide for the Rental and Sale views bel
 
 ## Dealing The Cards
 
-The Card interface component is very common across the webs. Bootstrap 4 includes a card element. 
+The `Card` interface component is very common across the webs. Bootstrap 4 includes a card element, as do most popular CSS frameworks like Angular Material and React's UI Material. They are in your future!
 
 Otherwise, creating one with your own CSS isn't so bad. W3 even has a page on it: [https://www.w3schools.com/howto/howto_css_cards.asp](https://www.w3schools.com/howto/howto_css_cards.asp)
 
