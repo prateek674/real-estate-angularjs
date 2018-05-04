@@ -22,22 +22,27 @@ You will need import the *listings.sql* file into your database. Either import t
 
 ## Views and Layout
 
-### Home/Add Listing Route
+Mockup of a card-based layout. This is a guide for the Rental and Sale views below. Feel free to improvise.
+[https://docs.google.com/drawings/d/1t-UDiuWOqXGgwBpL3Oi8B2tyjnSamFMLFavOuWLUb1c/edit?usp=sharing](https://docs.google.com/drawings/d/1t-UDiuWOqXGgwBpL3Oi8B2tyjnSamFMLFavOuWLUb1c/edit?usp=sharing)
 
-- [ ] Allow a user to add a property to the database. You will need to give the user an option for either a Rental property or a Sale property.
+
+### Home/Add Listing View/Route
+
+- [ ] Create a client-side route, controller, and template file for the home page.
+- [ ] Allow a user to add a property to the database on this view. You will need to give the user an option for either a Rental property or a Sale property.
 - [ ] Allow the user to enter the name of one of the images provided to display with the new listing.
 
 
-### Rental Property Route
+### Rental Property View/Route
 
-- [ ] Create a route, controller, and template file for Rental properties.
+- [ ] Create a client-side route, controller, and template file for Rental properties.
 - [ ] Display only those properties that are For Rent.
 - [ ] Display the listings in "card" elements, including the associated image. Images have been provided for you and assigned to each property.
 
 
-### Sale Property Route
+### Sale Property View/Route
 
-- [ ] Create a route, controller, and template file for Sale properties.
+- [ ] Create a client-side route, controller, and template file for Sale properties.
 - [ ] Display only those properties that are For Sale.
 - [ ] Display the listings in "card" elements, including the associated image. Images have been provided for you and assigned to each property.
 
