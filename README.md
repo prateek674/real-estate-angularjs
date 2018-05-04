@@ -11,21 +11,57 @@ You job is to get this data onto the DOM. Use client side routing (`angular-rout
 - [ ] Create a Full Stack application from the ground up using Angular, Node, Express, and SQL (SEAN stack)
 - [ ] Work with the data set that we have provide for you
 - [ ] Account for the different data properties ("rent" versus "sale") and ensure that this is noted on the display of the information, by listing "For Rent" or "For Sale" based on which of the two properties that it has.
-- [ ] 2 routes, each with a controller and template file. One set for "For Rent" properties and another set for "For Sale" properties
-- [ ] Create an interface for adding additional rental or housing properties to the collection(s). You will need to give the user an option for either a Rent property, or a Sale property
+- [ ] 3 views, 3 angular routes, each with a controller and template file. See mockups below.
+- [ ] Implement a `Card`, a common user interface element.
+ 
 
 ## Importing the Provided Data File
 
 You will need import the *listings.sql* file into your database. Either import the file or copy and paste all of the queries into Postico.
 
 
+## Views and Layout
+
+### Home/Add Listing Route
+
+- [ ] Allow a user to add a property to the database. You will need to give the user an option for either a Rental property or a Sale property.
+- [ ] Allow the user to enter the name of one of the images provided to display with the new listing.
+
+
+### Rental Property Route
+
+- [ ] Create a route, controller, and template file for Rental properties.
+- [ ] Display only those properties that are For Rent.
+- [ ] Display the listings in "card" elements, including the associated image. Images have been provided for you and assigned to each property.
+
+
+### Sale Property Route
+
+- [ ] Create a route, controller, and template file for Sale properties.
+- [ ] Display only those properties that are For Sale.
+- [ ] Display the listings in "card" elements, including the associated image. Images have been provided for you and assigned to each property.
+
+
+## Dealing The Cards
+
+The Card interface component is very common across the webs. Bootstrap 4 includes a card element. 
+
+Otherwise, creating one with your own CSS isn't so bad. W3 even has a page on it: [https://www.w3schools.com/howto/howto_css_cards.asp](https://www.w3schools.com/howto/howto_css_cards.asp)
+
+
+## Tips
+
+Don't get too hung up on the card and layout. Getting the data on the page is more important. Without the data, the application is useless. Spend your time wisely!
+
+
 ## Hard Mode
 
-- [ ] Ability to delete an existing listings
+- [ ] Ability to delete an existing listing. Place the `delete` button on each listing card.
 - [ ] Move all `$http` requests to an Angular Service
+
 
 ## Stretch Goals
 
-- [ ] Add an option to include an image path (absolute url) for each listing
-- [ ] Display the least expensive property featured prominently at the top of the page
+- [ ] Add other images to your application
+- [ ] Display the least expensive property featured prominently at the top of the view
 - [ ] Ability to search or filter by various parameters (try doing this using a server side route with a query parameter)
