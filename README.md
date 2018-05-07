@@ -1,5 +1,14 @@
 # Weekend Challenge 4 - Angular, Node, Express & SQL
 
+## CHECKLIST
+
+- [ ] Set up server and static files
+- [ ] Import the data and create SQL queries
+- [ ] Create server side route for GET, POST, DELETE
+- [ ] Disply items on the DOM
+- [ ] Add client side router
+- [ ] Style with 'Cards'
+
 Welcome to weekend challenge 4! This weekend, you will take on the role of an application developer for a real estate company. You will be working with data that we will be providing to you. After importing the data (instructions below), you will find information for properties that are either for "rent" or for "sale".
 
 You job is to get this data onto the DOM. Use client side routing (`angular-route`) to display the rentals on one view and listings for purchase on another view. There should be two navigation links on the page allowing the user to switch between the two views.
