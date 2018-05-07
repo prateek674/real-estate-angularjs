@@ -17,7 +17,7 @@ You job is to get this data onto the DOM. Use client side routing (`angular-rout
 
 ## Importing the Provided Data File
 
-Create a database called `real-estate`. You will need import the `listings.sql` file into your database. In order to do this, you will need to create a `listings` table with a `CREATE TABLE "listings"` command. Look at the `INSERT` statements to determine which columns should be added to this table. Be sure to add your `CREATE TABLE` query to the `database.sql` file so that we can see how you did it.
+Create a database called `real_estate`. You will need import the `listings.sql` file into your database. In order to do this, you will need to create a `listings` table with a `CREATE TABLE "listings"` command. Look at the `INSERT` statements to determine which columns should be added to this table. Be sure to add your `CREATE TABLE` query to the `database.sql` file so that we can see how you did it.
 
 
 ## Views and Layout
