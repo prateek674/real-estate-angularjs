@@ -6,7 +6,7 @@
 - [x] Import the data and create SQL queries
 - [x] Create server side route for GET, POST, DELETE
 - [x] Disply items on the DOM
-- [ ] Add client side router
+- [x] Add client side router
 - [x] Style with 'Cards'
 
 ## SQL 

@@ -7,21 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/styles.css">
     <script src="vendors/angular.js"></script>
-    <!-- <script src="vendors/angular-route.js"></script> -->
+    <script src="vendors/angular-route.js"></script>
     <script src="scripts/client.js"></script>
     <script src="scripts/controllers/listing.controller.js"></script>
+    <script src="scripts/controllers/add.controller.js"></script>
+    <script src="scripts/controllers/sale.controller.js"></script>
+
 </head>
 <body ng-app="listingApp">
     <h1>Houses for Sale and Rent</h1>
     Is Angular working? {{2 === 2}}
-
-    <div ng-controller="ListingController as vm">
-        <div class="card" ng-repeat="listing in vm.listingData">
-            <h3>{{listing.city}}</h3>
-            <p>cost: {{listing.cost}}</p>
-            <p>sqft: {{listing.sqft}}</p>
-        </div>
-
-    </div>
+    <ul>
+        <li>
+            <a href="#!/">Home</a>
+        </li>
+        <li>
+            <a href="#!/rentals">Rentals</a>
+        </li>
+        <li>
+            <a href="#!/sale">Sales</a>
+        </li>
+    </ul>
+    <main ng-view />
 </body>
 </html>

@@ -31,6 +31,30 @@ router.get('/all', (req, res) => {
     });
 });
 
+// Route that returns properties for rent
+router.get('/rent', (req, res) => {
+    console.log('GET /all route');
+    let queryText = `SELECT * FROM "listings" WHERE "type" = 'rent' ORDER BY "id" DESC;`;
+    pool.query(queryText).then((result) => {
+        res.send(result.rows); // Rows will be an array of data from the server
+    }).catch((error) => {
+        console.log('Error making query', error);
+        res.sendStatus(500);
+    });
+});
+
+// Route that returns properties for sale
+router.get('/sale', (req, res) => {
+    console.log('GET /all route');
+    let queryText = `SELECT * FROM "listings" WHERE "type" = 'sale' ORDER BY "id" DESC;`;
+    pool.query(queryText).then((result) => {
+        res.send(result.rows); // Rows will be an array of data from the server
+    }).catch((error) => {
+        console.log('Error making query', error);
+        res.sendStatus(500);
+    });
+});
+
 router.post('/', (req, res) => {
     console.log('POST / route')
     const listing = req.body; // Object send from the client with listing data
