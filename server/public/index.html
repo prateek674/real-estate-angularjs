@@ -5,8 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Houses for Sale and Rent</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="vendors/angular.js"></script>
+    <!-- <script src="vendors/angular-route.js"></script> -->
+    <script src="scripts/client.js"></script>
+    <script src="scripts/controllers/listing.controller.js"></script>
 </head>
-<body>
+<body ng-app="listingApp">
     <h1>Houses for Sale and Rent</h1>
+    Is Angular working? {{2 === 2}}
+
+    <div ng-controller="ListingController as vm">
+        <div class="card" ng-repeat="listing in vm.listingData">
+            <h3>{{listing.city}}</h3>
+            <p>cost: {{listing.cost}}</p>
+            <p>sqft: {{listing.sqft}}</p>
+        </div>
+
+    </div>
 </body>
 </html>
