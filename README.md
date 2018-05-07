@@ -2,12 +2,33 @@
 
 ## CHECKLIST
 
-- [ ] Set up server and static files
-- [ ] Import the data and create SQL queries
+- [x] Set up server and static files
+- [x] Import the data and create SQL queries
 - [ ] Create server side route for GET, POST, DELETE
 - [ ] Disply items on the DOM
 - [ ] Add client side router
 - [ ] Style with 'Cards'
+
+## SQL 
+
+```SQL
+-- Select all of the items
+SELECT * FROM "listings" ORDER BY "id" DESC;
+
+-- Insert a new listing
+INSERT INTO "listings" ("cost", "sqft", "type", "city", "image_path")
+VALUES ($1, $2, $3, $4, $5);
+
+-- Create your table to get set up
+CREATE TABLE "listings" (
+	"id" serial PRIMARY KEY,
+	"cost" INTEGER,
+	"sqft" INTEGER,
+	"type" VARCHAR(240),
+	"city" VARCHAR(240),
+	"image_path" VARCHAR(480)
+);
+```
 
 Welcome to weekend challenge 4! This weekend, you will take on the role of an application developer for a real estate company. You will be working with data that we will be providing to you. After importing the data (instructions below), you will find information for properties that are either for "rent" or for "sale".
 
